@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra -g -rdynamic CMakeFiles/tiled.dir/src/main.c.o CMakeFiles/tiled.dir/src/mainwindow.c.o CMakeFiles/tiled.dir/src/zone.c.o -o tiled  -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lgtksourceview-4 -lxdo 
