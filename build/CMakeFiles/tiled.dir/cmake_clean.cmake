@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tiled.dir/src/layout.c.o"
+  "CMakeFiles/tiled.dir/src/layout.c.o.d"
   "CMakeFiles/tiled.dir/src/main.c.o"
   "CMakeFiles/tiled.dir/src/main.c.o.d"
   "CMakeFiles/tiled.dir/src/mainwindow.c.o"

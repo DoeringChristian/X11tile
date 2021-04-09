@@ -81,12 +81,12 @@ clean: CMakeFiles/tiled.dir/clean
 CMakeFiles/tiled.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=1,2,3,4 "Built target tiled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target tiled"
 .PHONY : CMakeFiles/tiled.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tiled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/tiled02/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/tiled02/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tiled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/tiled02/build/CMakeFiles 0
 .PHONY : CMakeFiles/tiled.dir/rule

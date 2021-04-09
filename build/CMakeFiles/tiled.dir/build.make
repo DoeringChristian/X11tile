@@ -69,10 +69,24 @@ include CMakeFiles/tiled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tiled.dir/flags.make
 
+CMakeFiles/tiled.dir/src/layout.c.o: CMakeFiles/tiled.dir/flags.make
+CMakeFiles/tiled.dir/src/layout.c.o: ../src/layout.c
+CMakeFiles/tiled.dir/src/layout.c.o: CMakeFiles/tiled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tiled.dir/src/layout.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tiled.dir/src/layout.c.o -MF CMakeFiles/tiled.dir/src/layout.c.o.d -o CMakeFiles/tiled.dir/src/layout.c.o -c /home/doeringc/Projects/tiled02/src/layout.c
+
+CMakeFiles/tiled.dir/src/layout.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tiled.dir/src/layout.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doeringc/Projects/tiled02/src/layout.c > CMakeFiles/tiled.dir/src/layout.c.i
+
+CMakeFiles/tiled.dir/src/layout.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tiled.dir/src/layout.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doeringc/Projects/tiled02/src/layout.c -o CMakeFiles/tiled.dir/src/layout.c.s
+
 CMakeFiles/tiled.dir/src/main.c.o: CMakeFiles/tiled.dir/flags.make
 CMakeFiles/tiled.dir/src/main.c.o: ../src/main.c
 CMakeFiles/tiled.dir/src/main.c.o: CMakeFiles/tiled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tiled.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tiled.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tiled.dir/src/main.c.o -MF CMakeFiles/tiled.dir/src/main.c.o.d -o CMakeFiles/tiled.dir/src/main.c.o -c /home/doeringc/Projects/tiled02/src/main.c
 
 CMakeFiles/tiled.dir/src/main.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/tiled.dir/src/main.c.s: cmake_force
 CMakeFiles/tiled.dir/src/mainwindow.c.o: CMakeFiles/tiled.dir/flags.make
 CMakeFiles/tiled.dir/src/mainwindow.c.o: ../src/mainwindow.c
 CMakeFiles/tiled.dir/src/mainwindow.c.o: CMakeFiles/tiled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tiled.dir/src/mainwindow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tiled.dir/src/mainwindow.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tiled.dir/src/mainwindow.c.o -MF CMakeFiles/tiled.dir/src/mainwindow.c.o.d -o CMakeFiles/tiled.dir/src/mainwindow.c.o -c /home/doeringc/Projects/tiled02/src/mainwindow.c
 
 CMakeFiles/tiled.dir/src/mainwindow.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/tiled.dir/src/mainwindow.c.s: cmake_force
 CMakeFiles/tiled.dir/src/zone.c.o: CMakeFiles/tiled.dir/flags.make
 CMakeFiles/tiled.dir/src/zone.c.o: ../src/zone.c
 CMakeFiles/tiled.dir/src/zone.c.o: CMakeFiles/tiled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tiled.dir/src/zone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tiled.dir/src/zone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tiled.dir/src/zone.c.o -MF CMakeFiles/tiled.dir/src/zone.c.o.d -o CMakeFiles/tiled.dir/src/zone.c.o -c /home/doeringc/Projects/tiled02/src/zone.c
 
 CMakeFiles/tiled.dir/src/zone.c.i: cmake_force
@@ -113,6 +127,7 @@ CMakeFiles/tiled.dir/src/zone.c.s: cmake_force
 
 # Object files for target tiled
 tiled_OBJECTS = \
+"CMakeFiles/tiled.dir/src/layout.c.o" \
 "CMakeFiles/tiled.dir/src/main.c.o" \
 "CMakeFiles/tiled.dir/src/mainwindow.c.o" \
 "CMakeFiles/tiled.dir/src/zone.c.o"
@@ -120,12 +135,13 @@ tiled_OBJECTS = \
 # External object files for target tiled
 tiled_EXTERNAL_OBJECTS =
 
+tiled: CMakeFiles/tiled.dir/src/layout.c.o
 tiled: CMakeFiles/tiled.dir/src/main.c.o
 tiled: CMakeFiles/tiled.dir/src/mainwindow.c.o
 tiled: CMakeFiles/tiled.dir/src/zone.c.o
 tiled: CMakeFiles/tiled.dir/build.make
 tiled: CMakeFiles/tiled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable tiled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doeringc/Projects/tiled02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable tiled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tiled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

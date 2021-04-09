@@ -1,38 +1,27 @@
-CMakeFiles/tiled.dir/src/main.c.o: \
- /home/doeringc/Projects/tiled02/src/main.c /usr/include/stdc-predef.h \
- /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+CMakeFiles/tiled.dir/src/layout.c.o: \
+ /home/doeringc/Projects/tiled02/src/layout.c /usr/include/stdc-predef.h \
+ /home/doeringc/Projects/tiled02/include/layout.h \
+ /home/doeringc/Projects/tiled02/include/dlist.h /usr/include/stdio.h \
+ /usr/include/bits/libc-header-start.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/include/bits/stdlib-float.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/types.h \
- /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/bits/timesize.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/stdio_lim.h /usr/include/xdo.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/bits/pthreadtypes.h \
- /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/X11/Xlib.h \
- /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
- /usr/include/X11/Xosdefs.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
- /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h /usr/include/wchar.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/wctype-wchar.h /usr/include/bits/endian.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/bits/stdlib-float.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/string.h /usr/include/ctype.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h \
- /home/doeringc/Projects/tiled02/include/mainwindow.h \
+ /home/doeringc/Projects/tiled02/include/zone.h \
  /usr/include/gtk-3.0/gtk/gtk.h /usr/include/gtk-3.0/gdk/gdk.h \
  /usr/include/gtk-3.0/gdk/gdkconfig.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -42,12 +31,13 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h \
+ /usr/include/bits/posix2_lim.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/float.h \
  /usr/include/glib-2.0/glib/gversionmacros.h /usr/include/time.h \
- /usr/include/bits/time.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/time.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
@@ -61,7 +51,10 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
  /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
  /usr/include/bits/types/sigevent_t.h /usr/include/bits/sigevent-consts.h \
- /usr/include/bits/sigaction.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/bits/sigthread.h \
  /usr/include/bits/signal_ext.h /usr/include/glib-2.0/glib/gbase64.h \
  /usr/include/glib-2.0/glib/gbitlock.h \
  /usr/include/glib-2.0/glib/gbookmarkfile.h \
@@ -104,7 +97,7 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/include/glib-2.0/glib/gscanner.h \
  /usr/include/glib-2.0/glib/gsequence.h \
  /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
- /usr/include/string.h /usr/include/glib-2.0/glib/gspawn.h \
+ /usr/include/glib-2.0/glib/gspawn.h \
  /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gstringchunk.h \
  /usr/include/glib-2.0/glib/gstrvbuilder.h \
@@ -122,8 +115,8 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/include/glib-2.0/glib/deprecated/gcompletion.h \
  /usr/include/glib-2.0/glib/deprecated/gmain.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
- /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/glib-2.0/glib/deprecated/gthread.h /usr/include/sys/types.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
@@ -174,7 +167,10 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/include/glib-2.0/gio/gcontenttype.h \
  /usr/include/glib-2.0/gio/gconverterinputstream.h \
  /usr/include/glib-2.0/gio/gconverteroutputstream.h \
- /usr/include/glib-2.0/gio/gcredentials.h \
+ /usr/include/glib-2.0/gio/gcredentials.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h \
  /usr/include/glib-2.0/gio/gdatagrambased.h \
  /usr/include/glib-2.0/gio/gdatainputstream.h \
  /usr/include/glib-2.0/gio/gdataoutputstream.h \
@@ -658,31 +654,4 @@ CMakeFiles/tiled.dir/src/main.c.o: \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscale.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  /usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
- /usr/include/gtk-3.0/gtk/gtk-autocleanups.h \
- /home/doeringc/Projects/tiled02/include/dlist.h \
- /home/doeringc/Projects/tiled02/include/zone.h \
- /usr/include/gtk-3.0/gdk/gdkx.h /usr/include/X11/Xutil.h \
- /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11applaunchcontext.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11cursor.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11device.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11device-core.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11device-xi2.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11devicemanager.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11devicemanager-core.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11devicemanager-xi2.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11display.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11displaymanager.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11dnd.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11glcontext.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11keys.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11monitor.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11property.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11screen.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11selection.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11utils.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11visual.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx11window.h \
- /usr/include/gtk-3.0/gdk/x11/gdkx-autocleanups.h \
- /home/doeringc/Projects/tiled02/include/layout.h /usr/include/ctype.h \
- /home/doeringc/Projects/tiled02/include/zone.h
+ /usr/include/gtk-3.0/gtk/gtk-autocleanups.h

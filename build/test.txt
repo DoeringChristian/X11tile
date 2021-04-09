@@ -1,0 +1,18 @@
+-zone:
+    name = "test"
+    x = 0.5
+    y = 0
+    width = 0.5
+    height = 1
+-zone:
+    name = "test"
+    x = 0
+    y = 0
+    width = 0.5
+    height = 0.5
+-zone:
+    name = "test"
+    x = 0
+    y = 0.5
+    width = 0.5
+    height = 0.5

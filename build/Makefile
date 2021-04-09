@@ -129,6 +129,30 @@ tiled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/build
 .PHONY : tiled/fast
 
+src/layout.o: src/layout.c.o
+.PHONY : src/layout.o
+
+# target to build an object file
+src/layout.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/src/layout.c.o
+.PHONY : src/layout.c.o
+
+src/layout.i: src/layout.c.i
+.PHONY : src/layout.i
+
+# target to preprocess a source file
+src/layout.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/src/layout.c.i
+.PHONY : src/layout.c.i
+
+src/layout.s: src/layout.c.s
+.PHONY : src/layout.s
+
+# target to generate assembly for a file
+src/layout.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiled.dir/build.make CMakeFiles/tiled.dir/src/layout.c.s
+.PHONY : src/layout.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tiled"
+	@echo "... src/layout.o"
+	@echo "... src/layout.i"
+	@echo "... src/layout.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -11,6 +11,7 @@ typedef __useconds_t useconds_t;
 #include <xdo.h>
 #include "dlist.h"
 #include "zone.h"
+typedef unsigned int uint;
 
 struct mainwindow{
     GtkWidget *window;
@@ -19,9 +20,12 @@ struct mainwindow{
     Window moving;
     struct dlist layout;
     gboolean supports_alpha;
+    FILE *fp;
+    uint decoration_height;
+    uint decoration_width;
 };
 
-struct mainwindow *mainwindow_init(struct mainwindow *self);
+struct mainwindow *mainwindow_init(struct mainwindow *self, FILE *fp);
 void mainwindow_free(struct mainwindow *self);
 
 void mainwindow_draw(GtkWidget *widget, cairo_t *cr, gpointer data);
@@ -29,5 +33,6 @@ void mainwindow_close(GtkWidget *widget, gpointer *data);
 int mainwindow_reorder(void *data);
 int mainwindow_getpos(void *data);
 void mainwindow_changed(GtkWidget *widget, GdkScreen *old_screen, gpointer data);
+int mainwindow_load(void *data);
 
 #endif //MAINWINDOW_H

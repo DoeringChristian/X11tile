@@ -13,9 +13,11 @@ typedef unsigned int uint;
 struct zone{
     struct dlist node;
     uint x, y, width, height;
+    uint8_t active;
+    char *name;
 };
 
-struct zone *zone_init(struct zone *self, uint x, uint y, uint width, uint height);
+struct zone *zone_init(struct zone *self, char *name, uint x, uint y, uint width, uint height);
 void zone_free(struct zone *self);
 
 void zone_draw(struct zone *self, cairo_t *cr);

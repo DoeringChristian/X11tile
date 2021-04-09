@@ -5,25 +5,26 @@
 #include <unistd.h>
 #include "mainwindow.h"
 #include <gdk/gdkx.h>
+#include "layout.h"
 
 int main(int argc, char **argv){
     gtk_init(&argc, &argv);
-
-    struct xdo *x = xdo_new(NULL);
-    Window win;
-    xdo_get_focused_window_sane(x, &win);
     
-
     struct mainwindow mainwindow;
+    
+    FILE *fp;
 
-    mainwindow_init(&mainwindow);
+    if(argc < 0 || !(fp = fopen("/home/doeringc/Projects/tiled02/build/test.txt", "r"))){
+        return 0;
+    }
 
-    Window mw = gdk_x11_window_get_xid(gtk_widget_get_window(mainwindow.window));
+    mainwindow_init(&mainwindow, fp);
 
-    xdo_raise_window(x, win);
-    xdo_free(x);
+    g_print("test\n");
 
     gtk_main();
+
+    fclose(fp);
 
     return 0;
 }
